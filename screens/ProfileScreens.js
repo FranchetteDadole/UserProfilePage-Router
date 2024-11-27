@@ -17,7 +17,7 @@ const ProfileScreen = () => {
         style={styles.avatar}
         source={require("../assets/profile.jpeg")} // Local image from assets folder
       />
-      <Text style={[styles.name, darkMode ? darkStyles.text : null]}>Franchette Dadole
+      <Text style={[styles.name, darkMode ? darkStyles.text : null]}>Mhieljun Budiongan
       </Text>
       <Text style={[styles.bio, darkMode ? darkStyles.text : null]}>
         Cybersecurity Specialist | Tech Enthusiast
@@ -29,21 +29,21 @@ const ProfileScreen = () => {
         <View style={styles.analyticsContainer}>
           <View style={[styles.analyticsCard, { backgroundColor: "#A8D5BA" }]}>
             <Text style={styles.analyticsTitle}>Total Logins</Text>
-            <Text style={styles.analyticsValue}>120</Text>
+            <Text style={styles.analyticsValue}>19</Text>
           </View>
           <View style={[styles.analyticsCard, { backgroundColor: "#F7CAC9" }]}>
             <Text style={styles.analyticsTitle}>Last Active</Text>
-            <Text style={styles.analyticsValue}>2 days ago</Text>
+            <Text style={styles.analyticsValue}>1 days ago</Text>
           </View>
         </View>
         <View style={styles.analyticsContainer}>
           <View style={[styles.analyticsCard, { backgroundColor: "#FFDCA5" }]}>
             <Text style={styles.analyticsTitle}>Projects Completed</Text>
-            <Text style={styles.analyticsValue}>45</Text>
+            <Text style={styles.analyticsValue}>24</Text>
           </View>
           <View style={[styles.analyticsCard, { backgroundColor: "#AFCBFF" }]}>
             <Text style={styles.analyticsTitle}>Hours Spent</Text>
-            <Text style={styles.analyticsValue}>340</Text>
+            <Text style={styles.analyticsValue}>129</Text>
           </View>
         </View>
       </View>
